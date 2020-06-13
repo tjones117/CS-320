@@ -1,0 +1,77 @@
+{
+  "score": 74.0,
+  "tests": [
+    {
+      "test": "has_classes",
+      "points": 8,
+      "possible": 8
+    },
+    {
+      "test": "service_ids",
+      "points": 20,
+      "possible": 20
+    },
+    {
+      "test": "get_trips",
+      "points": 8,
+      "possible": 8
+    },
+    {
+      "test": "get_trips_by_route",
+      "points": 10,
+      "possible": 10
+    },
+    {
+      "test": "get_stops",
+      "points": 8,
+      "possible": 8
+    },
+    {
+      "test": "get_stops_rect",
+      "points": 10,
+      "possible": 10
+    },
+    {
+      "test": "get_stops_circ",
+      "points": 10,
+      "possible": 10
+    },
+    {
+      "test": "scatter_stops",
+      "points": 0,
+      "possible": 20,
+      "log": [
+        "========================================",
+        "TEST scatter_stops (20)",
+        "Traceback (most recent call last):",
+        "  File \"tester.py\", line 89, in run_all_tests",
+        "    points = t.fn()",
+        "  File \"tester.py\", line 307, in scatter_stops",
+        "    bd.scatter_stops(ax)",
+        "AttributeError: 'BusDay' object has no attribute 'scatter_stops'",
+        "",
+        ""
+      ]
+    },
+    {
+      "test": "draw_tree",
+      "points": 0,
+      "possible": 6,
+      "log": [
+        "========================================",
+        "TEST draw_tree (6)",
+        "Traceback (most recent call last):",
+        "  File \"tester.py\", line 89, in run_all_tests",
+        "    points = t.fn()",
+        "  File \"tester.py\", line 338, in draw_tree",
+        "    bd.draw_tree(ax)",
+        "AttributeError: 'BusDay' object has no attribute 'draw_tree'",
+        "",
+        ""
+      ]
+    }
+  ],
+  "lint": [],
+  "date": "04/16/2020",
+  "latency": 5613.864114999771
+}

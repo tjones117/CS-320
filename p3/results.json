@@ -1,0 +1,50 @@
+{
+  "score": 88.0,
+  "tests": [
+    {
+      "test": "has_pages",
+      "points": 10,
+      "possible": 10
+    },
+    {
+      "test": "has_links",
+      "points": 6,
+      "possible": 6
+    },
+    {
+      "test": "browse",
+      "points": 14,
+      "possible": 20,
+      "log": [
+        "========================================",
+        "TEST browse (20)",
+        "found 3,170\u00a0 but expected 3170 at row 6 of column Payload Mass (kg)",
+        ""
+      ]
+    },
+    {
+      "test": "ab_test",
+      "points": 30,
+      "possible": 30
+    },
+    {
+      "test": "api_examples",
+      "points": 14,
+      "possible": 20,
+      "log": [
+        "========================================",
+        "TEST api_examples (20)",
+        "at least one API example should return a dict",
+        ""
+      ]
+    },
+    {
+      "test": "email",
+      "points": 14,
+      "possible": 14
+    }
+  ],
+  "lint": [],
+  "date": "03/13/2020",
+  "latency": 0.14316582679748535
+}
